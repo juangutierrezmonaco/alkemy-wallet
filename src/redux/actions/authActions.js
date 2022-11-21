@@ -20,7 +20,6 @@ export const authUser = () => async dispatch => {
     try {
         // get user data
         const userData = await fetchWalletApi.get(`/auth/me`);
-        console.log(userData)
         return dispatch(authSuccess(AUTH_LOGIN, userData.data)).payload;
     } catch (error) {
         return dispatch(authFailure(error.response?.data)).payload;
