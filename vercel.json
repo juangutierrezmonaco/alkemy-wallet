@@ -1,8 +1,14 @@
 {
-    "rewrites": [
+    "redirects": [
         {
             "source": "/api/(.*)",
-            "destination": "http://wallet-main.eba-ccwdurgr.us-east-1.elasticbeanstalk.com/"
+            "destination": "http://wallet-main.eba-ccwdurgr.us-east-1.elasticbeanstalk.com/",
+            "statusCode": 200
+        },
+        {
+            "source": "/(.*)",
+            "destination": "index.html",
+            "statusCode": 200
         }
     ]
 }
