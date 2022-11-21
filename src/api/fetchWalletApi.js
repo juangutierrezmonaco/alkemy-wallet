@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const fetchWalletApi = () => {
-    console.log(process.env.REACT_APP_API_URL)
     const defaultOptions = {
         baseURL: process.env.REACT_APP_API_URL,
     };
