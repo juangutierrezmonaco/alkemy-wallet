@@ -11,17 +11,21 @@ function App() {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        // if user was logged, dispatch auth action
-        if (localStorage.getItem("token")) {
-            dispatch(authUser()).then((res) => {
-                // if there's any problem with the token, force a logout.
-                const { error } = res;
-                if (!error) {
-                    toast(`¡Bienvenido ${res?.first_name}!`, "success");
-                } else {
-                    dispatch(logout());
-                }
-            });
+        try {
+            // if user was logged, dispatch auth action
+            if (localStorage.getItem("token")) {
+                dispatch(authUser()).then((res) => {
+                    // if there's any problem with the token, force a logout.
+                    const { error } = res;
+                    if (!error) {
+                        toast(`¡Bienvenido ${res?.first_name}!`, "success");
+                    } else {
+                        dispatch(logout());
+                    }
+                });
+            }
+        } catch (error) {
+            console.log(error)
         }
     }, []);
 
