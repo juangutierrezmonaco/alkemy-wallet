@@ -111,8 +111,8 @@ const Spents = () => {
             )}
 
             {!loading && (
-                <button onClick={() => setIsDisabled(!isDisabled)}>
-                    {isDisabled ? "Habilitar edición." : "Deshabilitar edición."}
+                <button onClick={() => setIsDisabled(!isDisabled)} className='btn btn-dark'>
+                    {isDisabled ? "Habilitar edición" : "Deshabilitar edición"}
                 </button>
             )}
 
