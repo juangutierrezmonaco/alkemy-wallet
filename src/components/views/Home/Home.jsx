@@ -37,7 +37,7 @@ const Home = () => {
 
     return (
         <div
-            className={` ${styles.bgColor}`}
+            className={` ${styles.bgColor} mt-2`}
         >
             <h1 className={`${styles.title} pt-3 text-white`}>
                 Bienvenidos a AlkyBank!
