@@ -1,4 +1,13 @@
 # Aplicacion AlkyBank
+Esta aplicación se desarrolló en el transcurso de 2 semanas para la aceleración de Noviembre de 2022 en React de la empresa Alkemy.
+
+## Equipo de trabajo:
+- Santiago Zibecchi
+- Tobias Zavallo
+- Luis David
+- Lucas Cabral Silvero
+- Facundo Nicolas Alvarez
+- Daiana Elizabeth Gimenez
 
 ## Pasos para intalacion:
 
