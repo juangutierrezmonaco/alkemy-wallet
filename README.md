@@ -1,5 +1,5 @@
 # Aplicacion AlkyBank
-Esta aplicación se desarrolló en el transcurso de 2 semanas para la aceleración de Noviembre de 2022 en React de la empresa Alkemy.
+Esta aplicación se desarrolló en el transcurso de 2 semanas para la aceleración de Noviembre de 2022 en React de la empresa Alkemy. Consiste en la creación de una wallet a través de React, que consta de: autenticación, carga de salgo, balance, movimientos y envío de dinero.
 
 ## Equipo de trabajo:
 - Santiago Zibecchi
